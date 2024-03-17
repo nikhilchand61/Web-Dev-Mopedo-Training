@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login Page</title>
+    <style>
+      div {
+        width: 350px;
+        height: 300px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 35%;
+        margin-top: 20px;
+      }
+      label {
+        display: inline-block;
+        width: 80px;
+        padding: 5px;
+        margin-top: 10px;
+      }
+      #btn {
+        margin-top: 15px;
+        padding: 5px;
+        margin-left: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Login Page</h1>
+      <form>
+        <label for="username">Username: </label>
+        <input type="text" id="username" placeholder="Enter your username" />
+        <br />
+        <label for="password">Password: </label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+        />
+        <br />
+        <input type="submit" value="Login" id="btn" />
+      </form>
+    </div>
+  </body>
+</html>

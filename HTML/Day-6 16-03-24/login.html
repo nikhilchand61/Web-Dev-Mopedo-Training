@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login Page</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      div {
+        width: 400px;
+        height: 400px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 35%;
+        margin-top: 5%;
+        background-color: grey;
+        color: white;
+      }
+      label {
+        display: inline-block;
+        width: 80px;
+        padding: 5px;
+        margin-top: 10px;
+      }
+      input{
+        outline: none;
+      }
+      #btn {
+        margin-top: 15px;
+        width: 100%;
+        padding: 5px;
+      }
+      p {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Login Page</h1>
+      <form>
+        <label for="username">Username: </label>
+        <input type="text" id="username" placeholder="Enter your username" />
+        <br />
+        <label for="password">Password: </label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+        />
+        <br />
+        <input type="submit" value="Login" id="btn" />
+      </form>
+      <h4>-----OR-----</h4>
+      <p>
+        Don't have an account?<br />
+        <a href="./signup.html"><button id="btn">Signup here</button></a>
+      </p>
+    </div>
+  </body>
+</html>
