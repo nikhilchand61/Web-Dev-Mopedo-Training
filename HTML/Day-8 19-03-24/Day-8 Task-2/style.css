@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap');
+body{
+    background-color: #4A4A48;
+    color: white;
+    font-family: "Mina", sans-serif;
+    letter-spacing: 2px;
+}
+header, footer{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 8px #FFFFFF;
+    font-weight: 800;
+}
+.biryani{
+    background-color: #A4C2A5;
+    color: black;
+    padding: 20px;
+}
+.biryani > h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    width: 700px;
+    padding: 60px;
+}
