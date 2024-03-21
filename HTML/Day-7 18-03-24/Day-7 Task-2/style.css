@@ -1,0 +1,23 @@
+body{
+    background-color: #4A4A48;
+    color: white;
+}
+header{
+    text-align: center;
+}
+.biryani{
+    background-color: #A4C2A5;
+    color: black;
+    padding: 20px;
+}
+.biryani > h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    width: 700px;
+    padding: 60px;
+}
