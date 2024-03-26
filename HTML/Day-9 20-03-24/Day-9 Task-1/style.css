@@ -1,0 +1,29 @@
+*{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, #8e8b8b, #222831, #76ABAE);
+    
+}
+h1, th{
+    text-shadow: 3px 3px 6px #000;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    background-color: #31363F;
+    margin-top: 20px;
+}
+table,tr,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    background-color: #76ABAE;
+}
+mark{
+    color: #000;
+    background-color: #76ABAE;
+}
